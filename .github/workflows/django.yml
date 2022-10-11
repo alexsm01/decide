@@ -12,7 +12,7 @@ jobs:
         image: postgres:10.8
         env:
           POSTGRES_USER: alex
-          POSTGRES_PASSWORD: egc
+          POSTGRES_PASSWORD: alexsmegc
           POSTGRES_DB: decide
         ports:
           - 5432:5432
